@@ -6,6 +6,8 @@ const menuList = document.querySelector('.menu');
 const menuMarkUp = menuTemplate([...menu]);
 menuList.insertAdjacentHTML('beforeend', menuMarkUp);
 
+// THEME SWITCHER
+
 const Theme = {
     LIGHT: 'light-theme',
     DARK: 'dark-theme',
